@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TO-DO LIST CRUD APP</title>
+    <!-- <script src='data/schedule.js'></script> -->
+  </head>
+  <body>
+    <h1>TO-DO List</h1>
+    <script src="src/index.js" async></script>
+    <form id="taskForm">
+      <label for="taskTitle">Task Title:</label><br />
+      <input type="text" id="taskTitle" name="taskTitle" value="task" /><br />
+      <label for="taskDiscribe">Task Description:</label><br />
+      <input
+        type="text"
+        id="taskDiscribe"
+        name="taskDiscribe"
+        value="task description"
+      />
+      <button id="submit" type="submit" value="Submit">Submit</button>
+    </form>
+
+    <ul id="tasks"></ul>
+  </body>
+</html>
